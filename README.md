@@ -22,7 +22,7 @@ Users can create trips where they are able to add itineraries, make before you g
  7. Requests have to be made to _localhost:8081_ I use [Postman](https://www.postman.com/) when working with the Back-end)
  
  ### Front-end
- 1. Navigate into [/client]( ./client) folder and run npm install
+ 1. Navigate into /client folder and run npm install
  2. To start front-end server run this command in the terminal:
  ```
  $ npm run dev
