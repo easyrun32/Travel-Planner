@@ -1,0 +1,43 @@
+{
+  "name": "travel-planner",
+  "version": "1.0.0",
+  "description": "Back-end of Travel planner application to keep track of itineraries, tickets, budgets, todo lists and many more",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "pm2 start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Csecsi85/Travel-Planner.git"
+  },
+  "keywords": [
+    "webapp",
+    "travel",
+    "planner",
+    "itinerary",
+    "budget"
+  ],
+  "author": "Gabor Csecsetka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Csecsi85/Travel-Planner/issues"
+  },
+  "homepage": "https://github.com/Csecsi85/Travel-Planner#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.10.2",
+    "morgan": "^1.10.0",
+    "rotating-file-stream": "^2.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.1"
+  }
+}
