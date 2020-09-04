@@ -1,0 +1,13 @@
+version: 2
+# https://circleci.com/signup/
+# You can sign up with github
+# npm install pretty-quick husky --dev   for prettier
+# Within package.json add script "precommit": "pretty-quick --staged"
+# npm install --save-dev --save-exact prettier
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10
+    steps:
+      - checkout
+      - run echo "hello world"
